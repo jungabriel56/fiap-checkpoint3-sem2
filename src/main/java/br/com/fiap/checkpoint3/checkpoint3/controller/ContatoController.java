@@ -29,6 +29,7 @@ import lombok.RequiredArgsConstructor;
 @RequestMapping("/contatos")
 @RequiredArgsConstructor
 public class ContatoController {    
+    
     private final ContatoService contatoService;
     private final ContatoMapper contatoMapper;
     private final ContatoRepository contatoRepository;

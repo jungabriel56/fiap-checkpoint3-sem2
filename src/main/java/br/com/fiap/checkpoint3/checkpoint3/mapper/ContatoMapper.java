@@ -2,12 +2,14 @@ package br.com.fiap.checkpoint3.checkpoint3.mapper;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 import br.com.fiap.checkpoint3.checkpoint3.dtos.ContatoRequestCreateDto;
 import br.com.fiap.checkpoint3.checkpoint3.dtos.ContatoRequestUpdateDto;
 import br.com.fiap.checkpoint3.checkpoint3.dtos.ContatoResponseDto;
 import br.com.fiap.checkpoint3.checkpoint3.model.Contato;
 
+@Component
 public class ContatoMapper {
     @Autowired
     private ModelMapper modelMapper;
